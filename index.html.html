@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Artemisa TV - En Vivo y Películas Gratis</title>
+  <style>
+    body { font-family: Arial; background: #111; color: #fff; padding: 20px; }
+    h1 { text-align: center; }
+    .container { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+    .card { background: #222; padding: 15px; border-radius: 10px; box-shadow: 0 0 10px #000; }
+    video { width: 100%; border-radius: 10px; }
+    iframe { width: 100%; height: 200px; border: none; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h1>🎬 Artemisa TV - Canales en Vivo & Películas Legales</h1>
+
+  <h2>📺 Canales en Vivo</h2>
+  <div class="container">
+    <div class="card">
+      <h3>NASA TV</h3>
+      <video controls autoplay>
+        <source src="https://www.nasa.gov/media/nasatv.m3u8" type="application/x-mpegURL">
+        Tu navegador no soporta video en vivo.
+      </video>
+    </div>
+    <div class="card">
+      <h3>DW Español (TV Alemana)</h3>
+      <video controls autoplay>
+        <source src="https://dwstream4-lh.akamaihd.net/i/dwstream4_live@123556/master.m3u8" type="application/x-mpegURL">
+        Tu navegador no soporta video en vivo.
+      </video>
+    </div>
+  </div>
+
+  <h2>🎥 Películas Dominio Público</h2>
+  <div class="container">
+    <div class="card">
+      <h3>Plan 9 del Espacio Exterior (1959)</h3>
+      <iframe src="https://www.youtube.com/embed/ttvGWI4z_LY" allowfullscreen></iframe>
+    </div>
+    <div class="card">
+      <h3>Night of the Living Dead (1968)</h3>
+      <iframe src="https://www.youtube.com/embed/vZy9E5IPftk" allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+</html>
